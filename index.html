@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Calculadora de Fertilizantes</h1>
+    <div>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre">
+    </div>
+    <div>
+        <label for="cliente">Cliente::</label>
+        <input type="text" id="cliente">
+    </div>
+    <div>
+        <label for="hectareas">Cantidad de Hectáreas:</label>
+        <input type="number" id="hectareas">
+    </div>
+    <div>
+        <label for="fertilizante">Tipo de Fertilizante:</label>
+        <select id="fertilizante">
+            <option value="NK Soybeans">NK Soybeans</option>
+            <option value="Acuron®">Acuron®</option>
+            <option value="Miravis® Neo">Miravis® Neo</option>
+        </select>
+    </div>
+    <button id="calcular">Calcular</button>
+    <div id="resultado"></div>
+
+    <h2>Buscar Pedido</h2>
+    <div>
+        <label for="buscar">Buscar por Nombre o Cliente:</label>
+        <input type="text" id="buscar">
+    </div>
+    <button id="buscarBtn">Buscar</button>
+
+    <div id="resultado"></div>
+    <div id="buscarResultado"></div>
+    <script src="./index.js"></script>
+</body>
+</html>
