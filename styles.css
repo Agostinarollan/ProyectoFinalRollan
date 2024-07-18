@@ -1,0 +1,45 @@
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+h1, h2 {
+    color: #2c6e49;
+}
+
+label {
+    font-weight: bold;
+}
+
+#calcular, #buscarBtn {
+    background-color: #ff7f50;
+    color: white;
+}
+
+#calcular:hover, #buscarBtn:hover {
+    background-color: #ff6347;
+}
+
+#resultado, #buscarResultado {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.navbar {
+    background-color: #2c6e49;
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
